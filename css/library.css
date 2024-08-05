@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+/*header start***********************************************************************/
+header{
+    background-color:rgba(165, 42, 42, 0.795);
+
+}
+.head{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;   
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+li{
+    margin: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+a{
+    text-decoration: none;
+    color:bisque;
+    font-family: 'Dancing Script', cursive;
+    font-size: 18px;
+    
+}
+.fa-book-open{
+    color: white;
+    font-size: 25px;
+}
+/*header finish*******************************************************************/
+/*cover start*********************************************************************/
+#cover{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../image/laibary.jpg);
+   
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  
+    justify-content: center;
+}
+.cover-container{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+
+
+}
+#cover h1{
+   
+    font-size: 60px;
+    font-family: 'Dancing Script', cursive;
+  
+ 
+
+
+   
+}
+#cover h1:hover{
+    color: brown;
+}
+#cover h4{
+
+  
+    font-family: 'Dancing Script', cursive;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: whitesmoke;
+}
+
+/*cover finish******************************************************************/
+/*information start*************************************************************/
+
+
+.information {
+    background-color: rgba(222, 184, 135, 0.671);
+    padding-top: 30px;
+}
+
+
+
+.part1 h3{
+    text-align: center;
+    color:brown;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 80px;
+   
+    
+}
+.information2{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.information2 .part1{
+   flex-basis: 25%;
+   min-width: 200px;
+  
+  
+}
+.part1 .par{
+    background-color:rgba(222, 184, 135, 0.904);
+    box-shadow: 0 5px 5px  brown;
+    margin: 20px;
+
+}
+.part1 .par:hover{
+    background-color: brown;
+}
+
+
+
+.par p{
+    padding: 20px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+   
+}
+.par h4{
+    color: brown;
+    text-align: center;
+    padding-top: 10px;
+}
+.information2 p:hover{
+    color: white;
+}
+
+
+/*information finish**************************************************************/
+/*img start***********************************************************************/
+
+
+.img {
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:  rgba(222, 184, 135, 0.473);
+   
+  
+   
+}
+.img-all{
+    display: flex;
+
+}
+.img1{
+    flex-basis: 75%;
+    display: grid;
+    grid-template-columns:30% 30% 30% ;
+    grid-template-rows: 50% 50%;
+    
+}
+.p{
+    flex-basis: 25%;
+    color: brown;
+    text-align: center;
+    padding-top: 150px;
+    font-family: 'Dancing Script', cursive;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   border: 2px solid brown;
+   
+
+}
+
+
+
+.img .first-img{
+
+    grid-column: span 2;
+
+}
+.img .first-img:hover{
+    transform: scale(1.1);
+}
+/*img finish********************************************************************/
+
+/*details start****************************************************************/
+.details {
+    
+    background-color: rgba(222, 184, 135, 0.884);
+    padding-top: 30px;
+    padding-bottom: 30px;
+  
+  
+   
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.deatilss{
+    width: 75%; 
+}
+.deatilss p{
+ padding: 20px;
+ font-family: 'Dancing Script', cursive;
+    
+}
+.deatilss span{
+    margin-top: 30px;
+    
+    font-family: 'Dancing Script', cursive;
+}
+.lm{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.ll{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.lc{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.main1{
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: grey;
+}
+.main2{
+    width: 90%;
+    height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+    border-radius: 4px;
+    background-color:blue;
+}
+
+.main3{
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: grey;
+}
+
+.main4{
+    width: 88%;
+    height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+    border-radius: 4px;
+    background-color:blue;
+}
+
+.main5{
+    width: 100%;
+    height: 4px;
+    border-radius: 4px;
+    background-color: grey;
+}
+
+.main6{
+    width: 50%;
+    height: 100%;/*معناه انو بياخد ارتفاع الاب*/
+    border-radius: 4px;
+    background-color:blue;
+}
+/*details finish***************************************************************/
+/*footer start*****************************************************************/
+footer{
+    width: 100%;
+    height:10%;
+    background-color:rgba(165, 42, 42, 0.993);
+    text-align: center;
+   
+}
+
+footer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+
+}
+footer h2{
+    color: burlywood;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+/*footer finish***************************************************************/
+@media(min-width:768px) and (max-width:991px){
+    .container{
+        width: 750px;
+    }
+    #cover h4{
+
+       padding-top: 35%;
+    }
+  
+  
+ 
+}
+@media(min-width=992px){
+    .container{
+        width: 970px;
+    }
+  
+}
+@media(min-width:1200px){
+    .container{
+        width:1170px;
+    }
+
+}
+.container{
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
